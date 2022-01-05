@@ -1,0 +1,4 @@
+CSS types
+  1.Inline CSS : <h1 style="color:red;text-align:center;">Hi</h1>
+  2.Internal CSS : <style type="text/css"> /*CSS rules here*/</style>
+  3.External CSS : <link type="text/css" rel="stylesheet" href="main.css" />
