@@ -1,10 +1,21 @@
 CSS Topics covered in FCC
 
-color
-font-size
-font-family
+color: COLOR_NAME;
+font-size: XXpx;
+font-family: FAMILY_NAME, GENERIC_NAME;
+
   In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. 
   There are many sources for web fonts on the Internet. 
   For this example we will focus on the Google Fonts library.
+
+  Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. 
+  For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.😊
+  Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
+  
+width:XXpx;
+
+  
+
+  
 
   
