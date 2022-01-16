@@ -9,8 +9,12 @@ selectors
   }
   #id-name{
   }
+  [attribute_name:'attribute_value']{
+  }
   
 color: red;
+background-color:silver;
+width:XXpx;
 text-align:center;
 font-size: 16px;
 font-family: FAMILY_NAME, GENERIC_NAME;
@@ -24,13 +28,12 @@ font-family: Lobster, monospace;
   For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.
   Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
   
-width:XXpx;
 border-color:red;
 border-style:solid;
 border-width:10px;
 border-radius:5px; 
 border-radius:50%; /* obtains a circle */
-background-color:silver;
+border: 5px solid red;/* border: WIDTH STYLE COLOR;
 margin:10px;
 padding:10px;
 /*margin pushes other elements, negaive margin pulls surrounding elements or we can say, the element becomes larger*/
@@ -44,6 +47,9 @@ margin-top:40px;
 margin-right:0;
 margin-bottom:20px;
 margin-left:0;
+
+
+
 
 
 
