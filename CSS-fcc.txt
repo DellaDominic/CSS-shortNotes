@@ -1,18 +1,54 @@
 CSS Topics covered in FCC
 
-color: COLOR_NAME;
-font-size: XXpx;
+*******************BASIC CSS********************
+
+selectors
+  h1{
+  }
+  .class-name{
+  }
+  #id-name{
+  }
+  
+color: red;
+text-align:center;
+font-size: 16px;
 font-family: FAMILY_NAME, GENERIC_NAME;
+font-family: Lobster, monospace;
 
   In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. 
   There are many sources for web fonts on the Internet. 
   For this example we will focus on the Google Fonts library.
 
   Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. 
-  For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.😊
+  For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.
   Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
   
 width:XXpx;
+border-color:red;
+border-style:solid;
+border-width:10px;
+border-radius:5px; 
+border-radius:50%; /* obtains a circle */
+background-color:silver;
+margin:10px;
+padding:10px;
+/*margin pushes other elements, negaive margin pulls surrounding elements or we can say, the element becomes larger*/
+padding:40px 0 20px 0;
+padding-top:40px;
+padding-right:0;
+padding-bottom:20px;
+padding-left:0;
+margin:40px 0 20px 0;
+margin-top:40px;
+margin-right:0;
+margin-bottom:20px;
+margin-left:0;
+
+
+
+
+
 
   
 
