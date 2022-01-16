@@ -1,0 +1,10 @@
+CSS Topics covered in FCC
+
+color
+font-size
+font-family
+  In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. 
+  There are many sources for web fonts on the Internet. 
+  For this example we will focus on the Google Fonts library.
+
+  
