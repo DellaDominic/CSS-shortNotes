@@ -87,13 +87,5 @@ height:20px;
 <hr>
  horizantal line across the width of the containing element
 
-background-color:rgba(45,45,45,01)/*1 means opaque or solid and 0 means 100%transparent or clear)
+background-color:rgba(45,45,45,01)/*1 means opaque or solid and 0 means 100%transparent or clear*/
 
-
-
-
-
-
-
-
- 
