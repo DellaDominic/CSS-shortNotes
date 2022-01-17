@@ -54,5 +54,21 @@ CSS Variables
 --variable-name:value;
 property-name:var(--variable-name,fallback-value);/*referencing a CSS variable*/
 You can also provide a browser fallback by putting an extra declaration before in a way that the older browsers can understand
+:root 
+  is a pseudo-class selector that matches the root element of the document, usually the html element. 
+  By creating your variables in :root, they will be available globally and can be accessed from any other selector in the style sheet.
+CSS Variables can simplify the way you use media queries.
+  @media (max-width: 350px) {
+    :root {
+      /* These changes applied when width is 0px to 350px i.e. when max-width = 350px */
+      --penguin-size:200px;
+      --penguin-skin:black;
+      
+    }
+  }
+
+
+
+
 
  
