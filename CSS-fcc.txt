@@ -88,4 +88,10 @@ height:20px;
  horizantal line across the width of the containing element
 
 background-color:rgba(45,45,45,01)/*1 means opaque or solid and 0 means 100%transparent or clear*/
+font-size:27px;
+box-shadow:offset-x offset-y blur-radius spread-radius color
+  blur-radius and spread-radius values are optional
+  Multiple values for a single box-shadow property can be given by separating with comma
+opacity:0.7;/*note values is between 0 and 1 inclusive of both and doesn't contain a unit like px*/
+
 
