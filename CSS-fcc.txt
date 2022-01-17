@@ -48,4 +48,11 @@ margin-right:0;
 margin-bottom:20px;
 margin-left:0;  
 
-  
+color - colorName / #hexadecimalValue / rgb(0,0,0)
+
+CSS Variables
+--variable-name:value;
+property-name:var(--variable-name,fallback-value);/*referencing a CSS variable*/
+You can also provide a browser fallback by putting an extra declaration before in a way that the older browsers can understand
+
+ 
