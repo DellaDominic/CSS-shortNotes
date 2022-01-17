@@ -15,7 +15,6 @@ selectors
 color: red;
 background-color:silver;
 width:XXpx;
-text-align:center;
 font-size: 16px;
 font-family: FAMILY_NAME, GENERIC_NAME;
 font-family: Lobster, monospace;
@@ -66,6 +65,32 @@ CSS Variables can simplify the way you use media queries.
       
     }
   }
+
+*************APPLIED VISUAL DESIGN*************************
+
+text-align:center;
+text-align:justify;
+text-align:right;
+text-align:left;/*default*/
+width:25px;
+height:20px;
+
+<strong> 
+  tag adds font-weight:bold; CSS rule to the text it encloses to represent important text
+<em> 
+  tag adds font-style:italic; CSS rule to the text it encloses to emphasize text.
+<u> 
+  tag adds text-decoration:underline; CSS rule to the text it encloses to represent important text.
+  By default <a> tag adds an underline to hypertexts. So to avoid that use CSS rule- text-decoration:none;
+<s>
+  tag adds text-decoration:line-through; CSS rule to the text it encloses to strike the text.
+<hr>
+ horizantal line across the width of the containing element
+
+background-color:rgba(45,45,45,01)/*1 means opaque or solid and 0 means 100%transparent or clear)
+
+
+
 
 
 
