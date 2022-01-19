@@ -93,5 +93,35 @@ box-shadow:offset-x offset-y blur-radius spread-radius color
   blur-radius and spread-radius values are optional
   Multiple values for a single box-shadow property can be given by separating with comma
 opacity:0.7;/*note values is between 0 and 1 inclusive of both and doesn't contain a unit like px*/
+text-transform: uppercase;/*other values- lowercase capitalize initial none inherit */
+font-size: 54px;
+font-weight: 500;/*don't add px */
+font-weight: bold;
+line-height: 23px;/*space between two lines of text*/
+
+pseudo-classes
+
+a:visited{
+}
+a:link{
+}
+a:hover{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
