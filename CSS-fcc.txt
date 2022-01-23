@@ -109,11 +109,11 @@ a:hover{
 }
 
 
-position: relative;
+position: relative;/*relative to its original position*/
 top: 15px;/*moves 15px away i.e. towards bottom*/
 bottom: 15px/*moves 15px away i.e. towards top*/
 position:absolute;/*relative to the CLOSEST POSITION PARENT i.e. parent should have position: relative CSS rule. else no parent then body tag is the default parent*/
-position: fixed;
+position: fixed;/*relative to the window*/
 
 
 float:right;
@@ -121,8 +121,10 @@ width:50%;
 float:left;
 width:40%
 
+z-index:1;/*a whole number, higher value overlaps rest*/
 
-
+display:block/*changes an inline element to block*/
+margin:auto/*to center a block element horizontally*/
 
 
 
