@@ -46,8 +46,9 @@ margin-top:40px;
 margin-right:0;
 margin-bottom:20px;
 margin-left:0;  
+Important: When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins.
 
-color - colorName / #hexadecimalValue / rgb(0,0,0)
+color - colorName / #hexadecimalValue / rgb(0,0,0) /hsl(#,%,%)
 
 CSS Variables
 --variable-name:value;
@@ -123,8 +124,23 @@ width:40%
 
 z-index:1;/*a whole number, higher value overlaps rest*/
 
-display:block/*changes an inline element to block*/
+display:block/*changes an element to block*/
+display:inline-block/*changes to inline and can change width and height*/
 margin:auto/*to center a block element horizontally*/
+
+All elements have a default background-color of transparent. 
+background-color: hsl(180,80%,25%)
+background-color: rgb(204, 204, 255)
+
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+  The first argument specifies the direction from which color transition starts - 
+  it can be stated as a degree, where 90deg makes a horizontal gradient (from left to right) 
+  and 45deg makes a diagonal gradient (from bottom left to top right). 
+  The following arguments specify the order of colors used in the gradient.  
+background:repeating-linear-gradient(90deg, yellow 0px, yellow 40px, black 40px, black 80px;
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+
+
 
 
 
