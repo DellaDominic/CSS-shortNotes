@@ -252,3 +252,23 @@ cubic-bezier(0.3, 0.4, 0.5, 1.6);
 
 use alt attribute in img elements.
 use h1 to h6 tags to go in order and indicate the hierarchical relationships of your content.use only one h1 in one html page.
+main, header, footer, nav, article, and section
+  only one main tag per page
+  Note: The section element is also new with HTML5, and has a slightly different semantic meaning than article. 
+  An article is for standalone content, and a section is for grouping thematically related content. 
+  They can be used within each other, as needed. For example, if a book is the article, then each chapter is a section. 
+  When there's no relationship between groups of content, then use a div.
+  
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg">
+  <source src="audio/meow.ogg" type="audio/ogg">
+</audio>
+  Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. 
+  This can be done with nearby text on the page or a link to a transcript.
+
+<figure>
+<img src="image.jpeg" alt="an image">
+<br>
+<figcaption>An image to expalin how a figure tag and figcaption tag within that works</figcaption>
+</figure>
+  
