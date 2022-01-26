@@ -272,3 +272,24 @@ main, header, footer, nav, article, and section
 <figcaption>An image to expalin how a figure tag and figcaption tag within that works</figcaption>
 </figure>
   
+The for attribute on a label tag explicitly associates that label with the form control and is used by screen readers.
+for radio buttons- 
+    <fieldset>
+    <legend>Choose one of these three items:</legend>
+    </fieldset>
+    
+<time datetime="2013-02-13">last Wednesday</time>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
