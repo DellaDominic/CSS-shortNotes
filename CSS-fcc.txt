@@ -248,3 +248,7 @@ cubic-bezier(0.3, 0.4, 0.5, 1.6);
   and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing
   movement that is ideal for simulating the juggling ball.
 
+************************APPLIED ACCESSIBILITY******************
+
+use alt attribute in img elements.
+use h1 to h6 tags to go in order and indicate the hierarchical relationships of your content.use only one h1 in one html page.
