@@ -1,4 +1,4 @@
-CSS Topics covered in FCC
+CSS Topics covered in FreeCodeCamp
 
 *******************BASIC CSS********************
 
