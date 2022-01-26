@@ -116,7 +116,12 @@ bottom: 15px/*moves 15px away i.e. towards top*/
 position:absolute;/*relative to the CLOSEST POSITION PARENT i.e. parent should have position: relative CSS rule. else no parent then body tag is the default parent*/
 position: fixed;/*relative to the window*/
 
-
+position: absolute;
+  height: 50px;
+  width: 70px;
+  top: -50px;/* 50px above the top of the element.*/
+  left: 5px;/* 5px from the left*/
+  
 float:right;
 width:50%;
 float:left;
@@ -141,10 +146,33 @@ background:repeating-linear-gradient(90deg, yellow 0px, yellow 40px, black 40px,
 background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 
 transform: scale(1.5);
+div:hover {
+  transform: scale(2.1);
+}
+  Applying a transform to a div element will also affect any child elements contained in the div.
+transform: skewX(24deg);/*+for skewing towards right , - towards left*/
+transform: skewY(-10deg);/*+for skewing left vertical side and - for skewing right vertical side*/
+transform: rotate(-45deg);/*- is anti-clockwise and +deg is clockwise direction rotation*/
 
+background-color: transparent;
+border-radius: 50%;
+box-shadow: 25px 10px 0 0 blue;
 
-
-
+::before creates a pseudo-element that is the first child of the selected element; ::after creates a pseudo-element that is the last child of the selected element.
+For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. 
+  This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, 
+  the content property is still required, but it's set to an empty string. 
+  
+.heart::before {
+  content: "";
+  background-color: yellow;
+  border-radius: 25%;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: -50px;
+  left: 5px;
+}
 
 
 
