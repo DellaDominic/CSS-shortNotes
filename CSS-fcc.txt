@@ -283,9 +283,39 @@ use brief but descriptive text within the a tags to provide more meaning
 <button accesskey="b">Important Button</button>   
 <div tabindex="0">I need keyboard focus!</div>   using tabindex also enables the CSS pseudo-class :focus to work on that tag.
     
+**********************MEDIA QUERIES**********************************
+@media (max-height: 800px){
+    p{
+      font-size:10px;
+    }
+  }
+  
+The max-width of 100% will make sure the image is never wider than the container it is in, and the height of auto will make the image keep its original aspect ratio.
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+changing the height and width of an image that may appear pixaleted on a high resolution screen, to half the original height and width increases image quality.
+
+
+viewport units - relative to the the dimensions i.e. height and width of the viewport
+The four different viewport units are:
+
+  vw (viewport width): 10vw would be 10% of the viewport's width.
+  vh (viewport height): 3vh would be 3% of the viewport's height.
+  vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+  vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
     
-    
-    
+h2{
+    width: 80vw;
+  }
+  p{
+    width: 75vmin;
+  }
+  
+*********************************FLEXBOX********************************************************
     
     
     
