@@ -328,6 +328,12 @@ h2{
                 : space-between;
                 : space-around;
                 : space-evenly;
+align-items: stretch;/*default*/
+           : baseline;
+           : center;
+           : flex-start;
+           : flex-end;
+flex-wrap:
                 
     
     
