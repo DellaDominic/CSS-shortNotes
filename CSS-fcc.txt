@@ -318,7 +318,17 @@ h2{
 *********************************FLEXBOX********************************************************
     
  display:flex;
- 
+ flex-direction: row/*default*/
+               : column;
+               : row-reverse;
+               : column-reverse;
+ justify-content: flex-start/*default*/
+                : flex-end;
+                : center;
+                : space-between;
+                : space-around;
+                : space-evenly;
+                
     
     
     
