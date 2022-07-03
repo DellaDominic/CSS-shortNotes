@@ -1,1 +1,9 @@
-FreeCodeCamp React short notes
+*********FreeCodeCamp React short notes*********************
+
+ Any JSX element can be written with a self-closing tag, and every element must be closed.he line-break tag, for example, must always be written as <br />
+ 
+ To create a component with a function, you simply write a JavaScript function that returns either JSX or null.
+ 
+ One important thing to note is that React requires your function name to begin with a capital letter.
+ 
+ A common pattern is to try to minimize statefulness and to create stateless functional components wherever possible. This helps contain your state management to a specific area of your application. 
