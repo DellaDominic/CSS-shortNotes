@@ -13,6 +13,7 @@ Typeof undefined is undefined but type of null is object even though null is a d
 undefined == null is true
 undefined === null is false
 Operations on undefined gives NaN (Not a Number) and concatenating a string to undefined gives a string with undefined concatenated to it.
+Objects are mutable, const variable are immutable. (strings?)
 ```
 **> Var vs Let**
 ```
